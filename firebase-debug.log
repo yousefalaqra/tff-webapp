@@ -1,0 +1,53 @@
+[debug] [2023-03-12T14:46:31.611Z] ----------------------------------------------------------------------
+[debug] [2023-03-12T14:46:31.613Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2023-03-12T14:46:31.613Z] CLI Version:   11.23.1
+[debug] [2023-03-12T14:46:31.613Z] Platform:      win32
+[debug] [2023-03-12T14:46:31.613Z] Node Version:  v16.10.0
+[debug] [2023-03-12T14:46:31.614Z] Time:          Sun Mar 12 2023 16:46:31 GMT+0200 (Eastern European Standard Time)
+[debug] [2023-03-12T14:46:31.614Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-03-12T14:46:31.624Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-03-12T14:46:31.624Z] > authorizing via signed-in user (jo@joinnextstep.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\eventure\app
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-03-12T14:46:35.945Z] Using project from CLI flag: fragranceday
+[debug] [2023-03-12T14:46:35.947Z] > refreshing access token with scopes: []
+[debug] [2023-03-12T14:46:35.950Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-03-12T14:46:35.950Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-03-12T14:46:36.271Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-03-12T14:46:36.272Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-03-12T14:46:36.287Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fragranceday [none]
+[debug] [2023-03-12T14:46:36.699Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fragranceday 200
+[debug] [2023-03-12T14:46:36.700Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fragranceday {"projectId":"fragranceday","projectNumber":"287823385430","displayName":"fragranceday","name":"projects/fragranceday","resources":{"hostingSite":"fragranceday","storageBucket":"fragranceday.appspot.com","locationId":"europe-west6"},"state":"ACTIVE","etag":"1_dec12949-afc4-4585-a813-09be48ef5cc1"}
+[info] i  Using project fragranceday (fragranceday) 
+[info] 
+=== Hosting Setup
+[debug] [2023-03-12T14:48:01.419Z] Error: Command failed: npx --yes -p @angular/cli@latest ng new fragranceday --directory hosting --skip-git
+    at checkExecSyncError (node:child_process:826:11)
+    at execSync (node:child_process:900:15)
+    at Object.init (C:\Users\yousi\AppData\Roaming\nvm\v16.10.0\node_modules\firebase-tools\lib\frameworks\angular\index.js:28:34)
+    at doSetup (C:\Users\yousi\AppData\Roaming\nvm\v16.10.0\node_modules\firebase-tools\lib\init\features\hosting\index.js:87:76)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async init (C:\Users\yousi\AppData\Roaming\nvm\v16.10.0\node_modules\firebase-tools\lib\init\index.js:36:9)
+[error] 
+[error] Error: An unexpected error has occurred.
