@@ -1,0 +1,11 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+BEGIN:VEVENT
+CLASS:PUBLIC
+DESCRIPTION:<a href="https://fragranceday.org/live/63f65c8bcb4dd66d9f1e5767" target="_blank">On Demand</a>\n
+DTSTART:20230321
+DTEND:20230322
+LOCATION:TFF
+SUMMARY;LANGUAGE=en-us:The Fragrance Foundation's Fragrance Day On Demand Viewing
+END:VEVENT
+END:VCALENDAR

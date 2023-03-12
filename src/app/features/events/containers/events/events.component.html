@@ -1,0 +1,26 @@
+<div class="container">
+  <mat-toolbar>
+    <button
+      mat-icon-button
+      class="example-icon"
+      aria-label="Example icon-button with menu icon"
+    >
+      <!-- <mat-icon>menu</mat-icon> -->
+    </button>
+    <span>Fragrance Day Event Management</span>
+    <span class="example-spacer"></span>
+
+    <button
+    (click)="onLogout()"
+      mat-icon-button
+      class="example-icon"
+      aria-label="Example icon-button with share icon"
+    >
+      <mat-icon>power_settings_new</mat-icon>
+    </button>
+  </mat-toolbar>
+
+  <div class="content">
+    <router-outlet></router-outlet>
+  </div>
+</div>
